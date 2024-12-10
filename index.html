@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div id="input">
+      <input type="number" id="course_id" placeholder="ID" min="0"> <br>
+      <input type="text" id="name" placeholder="Name">
+      <input type="number" id="price" placeholder="Price" min="0"> <br>
+      <input type="number" id="duration" placeholder="Duration" min="0">
+      <input type="date" id="start">
+      <select name="type_id" id="type_id">
+        <option value="1">IT</option>
+        <option value="2">Fiets</option>
+        <option value="3">Hospitality</option>
+        <option value="4">Art</option>
+        <option value="5">Food</option>
+      </select> <br>
+      <button id="getButton">Get course by ID</button>
+      <button id="allButton">Show all</button>
+      <button id="postButton">Add new course</button>
+      <button id="putButton">Edit course by ID</button>
+      <button id="deleteButton">Delete course by ID</button>
+    </div>
+
+    <div id="output" class="flex"></div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

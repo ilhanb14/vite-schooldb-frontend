@@ -1,0 +1,42 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.course {
+  padding: 10px;
+  margin: 10px;
+  width: fit-content;
+  min-width: 200px;
+
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin: 20px 200px 0 200px
+}
+
+#input {
+  margin: 10px 0 0 200px;
+}
+
+input, button, select {
+  margin-bottom: 10px;
+  height: 30px;
+}
+
+.course:hover {
+  position: relative;
+  bottom: 10px;
+  right: 5px;
+}
